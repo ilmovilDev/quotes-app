@@ -15,7 +15,7 @@ const socialMediaList = [
 
 export const SocialNet = () => {
     return (
-        <div className='flex items-center gap-2 text-gray-500 text-xl'>
+        <div className='flex items-center gap-2 text-gray-500 text-xl md:text-2xl'>
             {socialMediaList.map(social => (
                 <a href={social.path}
                     key={social.title}
